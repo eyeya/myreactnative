@@ -13,17 +13,17 @@ import { FontAwesome } from "@expo/vector-icons";
 
 export default function Section2() {
   return (
-    <View style={{ flexDirection:'column',alignItems:'center',marginTop :-35 ,marginLeft:25,marginRight:25, padding: 10 ,borderWidth : 1 ,borderRadius:20 ,backgroundColor:'#FFFFFF',borderColor: '#F5F5F5'}}>
+    <View style={{ flexDirection: 'column', alignItems: 'center', marginTop: -30, marginLeft: 25, marginRight: 25, padding: 10, borderWidth: 1, borderRadius: 20, backgroundColor: '#FFFFFF', borderColor: '#F5F5F5' }}>
 
-     <Text style={{fontSize:25}}>Hilton San Francisco</Text>
-     <View style={{ flexDirection: "row" ,alignItems:'center'}}>
-          <FontAwesome name="star" size={15} color="orange" />
-          <FontAwesome name="star" size={15} color="orange" />
-          <FontAwesome name="star" size={15} color="orange" />
-          <FontAwesome name="star" size={15} color="orange" />
-          <FontAwesome name="star-half" size={15} color="orange" />
-        </View>
-     <Text style={{textAlign:'center'}}>Facilities provided may range from a modest quality mattress in a samll room to large suites</Text>
+      <Text style={{ fontSize: 25 }}>Hilton San Francisco</Text>
+      <View style={{ flexDirection: "row", alignItems: 'center' }}>
+        <FontAwesome name="star" size={15} color="orange" />
+        <FontAwesome name="star" size={15} color="orange" />
+        <FontAwesome name="star" size={15} color="orange" />
+        <FontAwesome name="star" size={15} color="orange" />
+        <FontAwesome name="star-half" size={15} color="orange" />
+      </View>
+      <Text style={{ textAlign: 'center' }}>Facilities provided may range from a modest quality mattress in a samll room to large suites</Text>
 
     </View>
   );
