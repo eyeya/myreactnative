@@ -4,10 +4,10 @@ import { ScrollView, StyleSheet, Text, View, TextInput, Button } from 'react-nat
 
 export default function Signup() {
     return (
-        <View style={{ flex: 1, flexDirection: 'column', justifyContent: 'center', alignItems: 'stretch', pedding: '10'}}>
-            <TextInput placeholder="Input ID" />
-            <TextInput placeholder="Input E-mail" />
-            <TextInput placeholder="Input Address" />
+        <View style={{ flex: 1,   alignItems: 'stretch', pedding: '10' }}>
+            <TextInput style={{fontSize : 20 , marginTop : 10}} placeholder="Input ID" />
+            <TextInput style={{fontSize : 20 , marginTop : 10}}placeholder="Input E-mail" />
+            <TextInput style={{fontSize : 20 , marginTop : 10}} placeholder="Input Address" />
             <Button title="Sign up" color="red" />
         </View>
     );
