@@ -19,9 +19,10 @@ import Menu from './components/week3/Menu';
 import Resort from './screens/week4/Resort';
 import Section1 from './components/week4/Section1';
 import Health from './screens/week5/Health';
+import Home from './screens/week6/Home';
 export default function App() {
   return (
-    <Health/>
+    <Home/>
   );
 }
 
