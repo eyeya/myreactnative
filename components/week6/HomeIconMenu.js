@@ -16,15 +16,17 @@ export default function HomeIconMenu() {
       </View>
       {/* View ก้อนที่ 2 */}
       <View style={{ flexDirection : "row", marginTop : 10  }}>
-        <MyIcon title="Flex" name="th" size={30} color="orange" onPress={()=>{ navigation.navigate("Ex1"); }} />
-        <MyIcon title="Travel" name="plane" size={30} color="orange" onPress={()=>{ navigation.navigate("Travel"); }} />
-        <MyIcon title="Resort" name="bed" size={30} color="orange" onPress={()=>{ navigation.navigate("Resort"); }}/>
-        <MyIcon title="Health" name="heart" size={30} color="orange" onPress={()=>{ navigation.navigate("Health"); }} />
+      <MyIcon title="Flex" name="th" size={30} color="orange" onPress={()=>{ navigation.navigate("Ex1"); }} />
+      <MyIcon title="Travel" name="plane" size={30} color="orange" onPress={()=>{ navigation.navigate("Travel"); }} />
+      <MyIcon title="Resort" name="hotel" size={30} color="orange" onPress={()=>{ navigation.navigate("Resort"); }} />
+      <MyIcon title="Health" name="heart" size={30} color="orange" onPress={()=>{ navigation.navigate("Health"); }} />
+        
+        
       </View>
       {/* View ก้อนที่ 3 */}
       <View style={{ flexDirection : "row", marginTop : 10 }}>
         <MyIcon title="Pokamon" name="bolt" size={30} color="orange" onPress={()=>{ navigation.navigate("PokemonTab");}}/>
-        <MyIcon title="xxx" name="question" size={30} color="orange" />
+        <MyIcon title="Book Store" name="cubes" size={30} color="orange" onPress={ ()=>{ navigation.navigate("Book")}} />
         <MyIcon title="xxx" name="question" size={30} color="orange" />
         <MyIcon title="More" name="ellipsis-h" size={30} color="orange" />
       </View>
