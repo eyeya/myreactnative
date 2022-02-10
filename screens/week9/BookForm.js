@@ -4,6 +4,7 @@ import { KeyboardAvoidingView, View, ScrollView, Text, Button, TextInput } from 
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import BookStorage from "../../storages/BookStorage";
 import BookLaravel from "../../services/BookLaravel";
+import UploadArea from "../../components/week12/UploadArea";
 
 
 export default function BookForm() {
@@ -51,6 +52,7 @@ export default function BookForm() {
         <TextInput placeholder="Enter price ..." value={price} onChangeText={(text) => setPrice(text)} />
         <Text>ลิงค์รูปภาพ</Text>
         <TextInput placeholder="Enter image URL ..." value={image} onChangeText={(text) => setImage(text)} />
+        <UploadArea  image={image} setImage={setImage} />
       </ScrollView>      
       <Button title="SAVE" color="tomato" onPress={saveBook}/>
     </KeyboardAvoidingView>
